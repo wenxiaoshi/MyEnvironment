@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- 该文件是AboutActivity.java文件所使用的布局文件 -->
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+    android:background="@drawable/aaaaa"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="此处显示当前位置 "
+        android:id="@+id/textView_address"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_weight="0.52" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="此处显示位置描述"
+        android:id="@+id/textView_jianduan_location"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_weight="0.27" />
+
+    <TextView android:id="@+id/textView_detail"
+            
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+        android:hint="此处显示当前空气质量"
+			android:ellipsize="start"
+            android:textSize="20dp"
+            android:textColor="#000000"
+        android:layout_weight="0.11" />
+
+    <EditText
+        android:id="@+id/editText_receiverID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="19"
+        android:textSize="24sp"
+        android:hint="输入手机号码告知对方"/>
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="短信分享"
+        android:layout_gravity="center_horizontal" />
+
+
+
+    <Button
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:text="分享至微信"
+        android:textSize="24sp"
+        android:id="@+id/button_sendToWX"
+        android:layout_gravity="center_horizontal" />
+
+
+
+     </LinearLayout>
+
+
+
+
+
